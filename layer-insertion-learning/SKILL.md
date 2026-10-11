@@ -20,22 +20,58 @@ metadata:
 
 ## 构建知识树结构
 
-在开始探索前，先构建起点所在的知识树结构，明确它在系统中的位置。
+在开始探索前，**必须先构建起点所在的知识树结构**，并输出为独立的 `[主题]-structure.md` 文件。
 
 **知识树的作用**：
 - 明确学习对象在哪个”房间”（容器）
 - 识别同层的兄弟节点（共同父节点）
 - 看清向上和向下的路径
 
-**示例**（Qdrant 的 Point）：
+**输出要求**：
+1. 创建 `examples/[主题]-structure.md` 文件
+2. 包含完整的树结构（至少 3 层深度）
+3. 标记起点位置（★）
+4. 列出从起点出发的探索路径（同层、向上、向下、跨系统）
+
+**示例**（`examples/qdrant-structure.md`）：
+```markdown
+# Qdrant 知识树结构
+
+\`\`\`
+Qdrant (向量数据库)
+│
+├── Cluster（集群层）
+│   ├── Node（节点）
+│   └── Shard（分片）
+│
+├── Collection（集合）
+│   ├── Configuration（配置）
+│   ├── Points（数据层）★ 起点
+│   ├── Indexes（索引层）
+│   └── Payload Schema（架构层）
+│
+└── API Operations（操作层）
+    ├── Upsert（插入/更新）
+    └── Search（搜索）
+\`\`\`
+
+## 从 Point 出发的探索路径
+
+**起点**：Point（Collection 的数据层）
+
+**同层兄弟**：Configuration、Indexes、Payload Schema
+
+**向上**：Collection（容器）、API Operations（操作层）
+
+**向下**：Vector、ID、Payload
+
+**跨系统**：关系数据库的 Row、MongoDB 的 Document
 ```
-Qdrant
-└── Collection（集合）
-    ├── Configuration（配置）
-    ├── Points（数据层）★ 起点在这里
-    ├── Indexes（索引层）
-    └── Payload Schema（架构层）
-```
+
+**后续使用**：
+- 讲解文档的”知识树定位”章节从 structure.md 中裁取相关片段
+- 只展示与当前讲解相关的层级，不需要完整树
+- 保持结构文件的完整性，方便复用和修改
 
 **关键原则**：
 - **同层 = 同房间**：只有共同父节点的兄弟才是真正的”同层”
