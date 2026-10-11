@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>层插学习法 · 认知探索器</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="universe">
+    <canvas id="particles"></canvas>
+
+    <header class="top-bar">
+      <div class="logo">
+        <div class="logo-icon"></div>
+        <span>层插学习法</span>
+      </div>
+      <div class="controls">
+        <button class="btn-secondary" id="reset">重新开始</button>
+        <button class="btn-secondary" id="history">探索历史</button>
+      </div>
+    </header>
+
+    <div class="main-stage">
+      <!-- 中心节点 -->
+      <div class="center-node" id="centerNode">
+        <div class="node-glow"></div>
+        <div class="node-core">
+          <div class="node-icon">🐳</div>
+          <h2 class="node-title">Docker 容器</h2>
+          <p class="node-definition">轻量级、可移植的应用运行环境</p>
+        </div>
+        <div class="pulse-ring"></div>
+      </div>
+
+      <!-- 四个方向的探索区域 -->
+      <div class="exploration-zones">
+        <!-- 同层 -->
+        <div class="zone zone-horizontal" data-direction="horizontal">
+          <button class="zone-trigger" data-direction="horizontal">
+            <span class="zone-icon">↔</span>
+            <span class="zone-label">同层对照</span>
+            <span class="zone-hint">看看同类事物</span>
+          </button>
+          <div class="zone-content"></div>
+        </div>
+
+        <!-- 向上 -->
+        <div class="zone zone-up" data-direction="up">
+          <button class="zone-trigger" data-direction="up">
+            <span class="zone-icon">↑</span>
+            <span class="zone-label">向上抽取</span>
+            <span class="zone-hint">谁在使用它</span>
+          </button>
+          <div class="zone-content"></div>
+        </div>
+
+        <!-- 跨系统 -->
+        <div class="zone zone-cross" data-direction="cross">
+          <button class="zone-trigger" data-direction="cross">
+            <span class="zone-icon">⤫</span>
+            <span class="zone-label">跨系统类比</span>
+            <span class="zone-hint">其他领域的相似物</span>
+          </button>
+          <div class="zone-content"></div>
+        </div>
+
+        <!-- 向下 -->
+        <div class="zone zone-down" data-direction="down">
+          <button class="zone-trigger" data-direction="down">
+            <span class="zone-icon">↓</span>
+            <span class="zone-label">向下深入</span>
+            <span class="zone-hint">它如何实现</span>
+          </button>
+          <div class="zone-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 理解面板 -->
+    <aside class="insight-panel" id="insightPanel">
+      <div class="insight-header">
+        <h3>当前理解</h3>
+        <button class="btn-close" id="closeInsight">×</button>
+      </div>
+      <div class="insight-content" id="insightContent"></div>
+    </aside>
+
+    <!-- 探索路径 -->
+    <div class="path-tracker" id="pathTracker">
+      <div class="path-label">探索路径</div>
+      <div class="path-items" id="pathItems"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
