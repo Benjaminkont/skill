@@ -1,0 +1,49 @@
+{
+  "stage": "/private/tmp/layer-skill-update-2eixrz7d/layer-insertion-learning",
+  "backup": "/Users/quzhong/GitHub/skill/skill/output/skill-backups/20261012_072822",
+  "targets": [
+    "/Users/quzhong/.codex/skills/layer-insertion-learning",
+    "/Users/quzhong/.cc-switch/skills/layer-insertion-learning"
+  ],
+  "old": {
+    "/Users/quzhong/.codex/skills/layer-insertion-learning": {
+      "SKILL.md": "9b87315ca4c366f8d0c020d74ef2254c8d2ab740b8b567e857e112dec0eb0ad4",
+      "agents/openai.yaml": "ce5dfafd25b4dfd5494062c818ae2ca1d4684b705c54e1e408062cf7bdf7f101"
+    },
+    "/Users/quzhong/.cc-switch/skills/layer-insertion-learning": {
+      "SKILL.md": "9b87315ca4c366f8d0c020d74ef2254c8d2ab740b8b567e857e112dec0eb0ad4",
+      "agents/openai.yaml": "ce5dfafd25b4dfd5494062c818ae2ca1d4684b705c54e1e408062cf7bdf7f101"
+    }
+  },
+  "new": {
+    "QUICKREF.md": "ca15b6a6c4d69b9eabe07bdd8ed05128dede8d5180e87f65b160717592073476",
+    "README.md": "316ee86445ffd1082e228ae02ca8cd0a0583953c654dfd966bf786da7948b7f6",
+    "SKILL.md": "4c834b678fe19d735c24b3866af1851a1bd5ded7d66df9ffcb9039d461a287e2",
+    "TEMPLATE.md": "2c9ab9cc83e421a1622f5f24e880fce45a42cfdd8f232f168b9ac1466c86036e",
+    "TODO.md": "01f90ea4c45b36ef8b61b48743a0db1b56beb13d68f83f2a701e0149c9435291",
+    "agents/openai.yaml": "ce5dfafd25b4dfd5494062c818ae2ca1d4684b705c54e1e408062cf7bdf7f101",
+    "demo/git-branch-merge/index.html": "c4ac14078b17193ad47fd001ad90df9128de7ec05e33d892887fb84434c61c4f",
+    "demo/layer-insertion-learning/app.js": "32c0c4c8c8c729198f15a0776c597703a692b780cc099210d7a5fb6f7592c04a",
+    "demo/layer-insertion-learning/enhanced-app.js": "4c4f23a88c5546b001cec692704a9181dc19b153900f8cc9fae6a6ad6043597c",
+    "demo/layer-insertion-learning/enhanced-style.css": "4bf9ef2716af0ed3fe40bbe1a84132940dae293d94465d9eb18dfd76bc64a8c1",
+    "demo/layer-insertion-learning/enhanced.html": "0ab74474dd89b7799a52d065256bb6022af46986f2fd1d59ad986c5f50871e8f",
+    "demo/layer-insertion-learning/index.html": "b50b6427efc00c595943cf5419d40eebfebf685fc38de3aae61a928c1e5a5075",
+    "demo/layer-insertion-learning/style.css": "338950daa28441038321641ea46ef4272ce6b4d4b418d1fd4e2538f885d51070",
+    "demo/layer-insertion-learning-v2/app.js": "dd0822060e6458d9c04c31cf46470434cdf8c7bdcbb074b1f0e09036951c9634",
+    "demo/layer-insertion-learning-v2/index.html": "578530b780b68927dc48af2d217dc6101a8d4e093e174dfea485d88ae6d5c819",
+    "demo/layer-insertion-learning-v2/style.css": "f214b417229be1df226f8ae43c9da800e87f17e11c69c47e3489a73825afb79f",
+    "examples/async-structure.md": "559f552ae4bae72c8d77f36525d745f1e904af3125a892a2ddb0d3cd68428e03",
+    "examples/async-v2.md": "5e42678079cc4fcf1b9f617312983671847b7a26118aa53a8ae61ee9f0b985ce",
+    "examples/async.md": "62d304cbc2e0aea2f6b3d0b3f36aa570701d710b7d769770d4270ec7dcb6edf4",
+    "examples/git-branch-merge.md": "55d4a63374ab90e70656a0289393811bacc86337aa2e5206a2b73dea7cd2a64c",
+    "examples/git-commit-history.md": "b34cc8dc63c14881fc095acde71f302868ce0f691bd699ee957af423962bc05a",
+    "examples/git-stash.md": "a84d6c8dc51f541daf19f214443aec530d69db4b9bd8253c0d485c38080725fe",
+    "examples/git-structure.md": "bec4c166133c9e434b11016a2ee312e6995cbb6dbfc5231156b81b6cf9fbe1af",
+    "examples/qdrant-point-v2.md": "e5938c1661a35b24dcf8161844bef7a6d291549ebc1203ab1807cba099cc3bc9",
+    "examples/qdrant-point.md": "3827d263679bf89aab6a0a271e8878b0dc457b09b17232607f4f376de6ee0729",
+    "examples/qdrant-structure.md": "eb0fa9ba6cb552c0233b1ebae60864934f7307af49da4697bc9a090e3c09c287",
+    "examples/sqlite-row-v2.md": "322ac615c05edff7debfeebd292ef0a1abe4103c4abc5cf6c26172dca7c1ad32",
+    "examples/sqlite-row.md": "18af18fa68d1fc9fec195bc509496dde92f0c94262054a875fe2cf8d7fdb3fa0",
+    "examples/sqlite-structure.md": "bb2fff7a00bfc6c1ae753a9f812a216c75b63951532561353d9e2e319d60cbea"
+  }
+}

@@ -60,21 +60,27 @@
 - **向下**：看起点的内部结构
 
 ### 4. 查看案例
-参考 `examples/` 中的案例：
+案例库在本 skill 的 `examples/` 目录下（随 skill 安装，不在你的项目目录里）：
 - `qdrant-point-v2.md`：理解 Qdrant 的 Point
 - `sqlite-row-v2.md`：理解 SQLite 的 Row
 - `async-v2.md`：理解"异步"
+- `git-stash.md` / `git-branch-merge.md`：理解具体命令，共用 `git-structure.md`
+
+### 5. 产物写到哪里
+讲解文档与新建的知识树写到**工作目录**下的 `layer-insertion-docs/`：
+- 不要写进 skill 安装目录（那是共享的方法与案例来源）
+- 只有用户明确要"扩充案例库"时，才写 skill 目录的 `examples/`，且先确认
 
 ## 目录结构
 
 ```
-layer-insertion-learning/
+layer-insertion-learning/          # skill 目录
 ├── SKILL.md           # 完整方法论
 ├── README.md          # 本文件
 ├── TEMPLATE.md        # 输出模板
 ├── QUICKREF.md        # 快速参考
 ├── TODO.md            # 优化方向
-├── examples/          # 案例库
+├── examples/          # 案例库（只读；扩充需用户确认）
 │   ├── *-structure.md # 知识树结构
 │   ├── *-v2.md        # 完整案例
 │   └── *.md           # 早期案例
@@ -82,6 +88,8 @@ layer-insertion-learning/
     └── layer-insertion-learning/
         └── enhanced.html
 ```
+
+> 注意：本仓库里 `examples/`、`demo/` 位于仓库根目录，打包安装时才装配进上述 skill 目录。文档中凡写 `examples/xxx.md`，一律相对 **SKILL.md 所在目录**解析，不要相对当前工作目录。
 
 ## 核心概念
 
@@ -116,8 +124,8 @@ layer-insertion-learning/
 
 ### 作为 AI
 1. 识别学习者的起点
-2. 构建知识树（可参考 `*-structure.md`）
-3. 按模板输出（参考 `*-v2.md` 案例）
+2. 构建知识树（内部步骤；可参考 skill 内的 `*-structure.md`，路径相对 SKILL.md 所在目录）
+3. 默认直接在对话里讲解；需要文档时按模板输出到工作目录 `layer-insertion-docs/`（参考 `*-v2.md` 案例）
 
 ## 版本历史
 
