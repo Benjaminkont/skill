@@ -26,7 +26,7 @@ Git（版本控制系统）
     └── git merge（合并分支）★ 起点之一
 ```
 
-> 完整 Git 知识树参见 [git-structure.md](./git-structure.md)
+> 完整 Git 知识树参见 [git-structure.md](../knowledge-networks/git-structure.md)
 
 **为什么这三个命令分属不同的房间？**
 - `merge`：属于"分支管理"，关注分支的汇合

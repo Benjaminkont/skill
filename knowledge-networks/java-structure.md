@@ -1,4 +1,6 @@
-# Java 知识树结构
+# Java 知识网络
+
+范围为 Java 语言内的类型、名称、包、类管理与编译运行。跨语言比较见 [代码文件管理](code-file-management-structure.md)，构建和依赖细节见 [Maven](maven-structure.md)。
 
 ```
 Java（编程语言）
@@ -12,7 +14,7 @@ Java（编程语言）
 │   │   └── 注解（annotation）
 │   └── 数组类型
 │
-├── 类管理 ★
+├── 类管理
 │   ├── 类的定义与文件
 │   │   ├── 公共类（public class）- 文件名必须匹配
 │   │   ├── 包级私有类 - 可多个在一个文件

@@ -20,7 +20,7 @@ Git（版本控制系统）
     └── git revert（安全撤销）
 ```
 
-> 完整 Git 知识树参见 [git-structure.md](./git-structure.md)
+> 完整 Git 知识树参见 [git-structure.md](../knowledge-networks/git-structure.md)
 
 ---
 

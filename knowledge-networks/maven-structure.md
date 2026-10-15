@@ -1,4 +1,6 @@
-# Maven 知识树结构
+# Maven 知识网络
+
+范围为 Maven 的构建、依赖与项目组织。语言中的 package、import 与类解析见 [Java](java-structure.md)，跨语言组织差异见 [代码文件管理](code-file-management-structure.md)。
 
 ```
 Maven（构建工具 & 依赖管理工具）
@@ -10,7 +12,7 @@ Maven（构建工具 & 依赖管理工具）
 │   ├── 插件（Plugin）
 │   └── 仓库（Repository）
 │
-├── 项目结构 ★ 起点
+├── 项目结构
 │   ├── 标准目录布局（Convention over Configuration）
 │   │   ├── src/main/java（源代码）
 │   │   ├── src/main/resources（资源文件）

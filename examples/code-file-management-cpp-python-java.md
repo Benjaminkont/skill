@@ -10,7 +10,7 @@
     └── Java: 类与文件绑定（一文件一公共类）
 ```
 
-> 完整知识树参见 [code-file-management-structure.md](./code-file-management-structure.md)
+> 完整知识树参见 [code-file-management-structure.md](../knowledge-networks/code-file-management-structure.md)
 
 ## 直接定义
 
@@ -441,4 +441,4 @@ print(utils.add(1, 2))
 
 ---
 
-> 完整知识树参见 [code-file-management-structure.md](./code-file-management-structure.md)
+> 完整知识树参见 [code-file-management-structure.md](../knowledge-networks/code-file-management-structure.md)

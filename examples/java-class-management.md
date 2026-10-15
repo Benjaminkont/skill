@@ -20,7 +20,7 @@ Java（编程语言）
         └── 静态导入（static import）
 ```
 
-> 完整知识树参见 [java-structure.md](./java-structure.md)
+> 完整知识树参见 [java-structure.md](../knowledge-networks/java-structure.md)
 
 ## 直接定义
 
@@ -1207,4 +1207,4 @@ target/             ← 编译输出（自动生成）
 
 ---
 
-> 完整 Java 知识树参见 [java-structure.md](./java-structure.md)
+> 完整 Java 知识树参见 [java-structure.md](../knowledge-networks/java-structure.md)

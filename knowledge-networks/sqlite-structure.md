@@ -1,4 +1,6 @@
-# SQLite 知识树结构
+# SQLite 知识网络
+
+范围为 SQLite 的关系数据、存储、查询与事务。与 [Qdrant](qdrant-structure.md) 可对照记录及容器关系。
 
 ```
 SQLite (嵌入式关系数据库)
@@ -9,7 +11,7 @@ SQLite (嵌入式关系数据库)
 │   │
 │   ├── Tables（表）
 │   │   ├── Columns（列定义）
-│   │   ├── Rows（数据行）★ 起点
+│   │   ├── Rows（数据行）
 │   │   ├── Indexes（索引）
 │   │   └── Triggers（触发器）
 │   │
@@ -30,9 +32,9 @@ SQLite (嵌入式关系数据库)
     └── Locks（锁）
 ```
 
-## 从 Row 出发的探索路径
+## 关系入口：Row
 
-**起点**：Row（Table 的数据行）
+**对象**：Row（Table 的数据行）
 
 **同层兄弟**（同在 Table 这个房间）：
 - Columns（列定义）

@@ -27,7 +27,7 @@ Maven（构建工具 & 依赖管理工具）
     └── package
 ```
 
-> 完整知识树参见 [maven-structure.md](./maven-structure.md)
+> 完整知识树参见 [maven-structure.md](../knowledge-networks/maven-structure.md)
 
 ## 直接定义
 
@@ -1375,4 +1375,4 @@ Maven 查找依赖 `com.google.code.gson:gson:2.10.0` 的顺序是什么？
 
 ---
 
-> 完整 Maven 知识树参见 [maven-structure.md](./maven-structure.md)
+> 完整 Maven 知识树参见 [maven-structure.md](../knowledge-networks/maven-structure.md)

@@ -1,4 +1,6 @@
-# Qdrant 知识树结构
+# Qdrant 知识网络
+
+范围为 Qdrant 的集合、记录、索引与操作。与 [SQLite](sqlite-structure.md) 可对照数据记录及容器关系，不等同其存储机制。
 
 ```
 Qdrant (向量数据库)
@@ -12,7 +14,7 @@ Qdrant (向量数据库)
 │   │   ├── Vector Config（向量配置：维度、距离度量）
 │   │   └── Optimizer Config（优化器配置）
 │   │
-│   ├── Points（数据层）★ 起点
+│   ├── Points（数据层）
 │   │   ├── Vector（向量）
 │   │   ├── ID（标识）
 │   │   └── Payload（元数据）
@@ -34,13 +36,13 @@ Qdrant (向量数据库)
     └── Delete（删除）
 ```
 
-## 从 Point 出发的探索路径
+## 关系入口：Point
 
-**起点**：Point（Collection 的数据层）
+**对象**：Point（Collection 的数据层）
 
 **同层兄弟**：
 - Configuration（配置层）
-- Indexes（索引层）  
+- Indexes（索引层）
 - Payload Schema（架构层）
 
 **向上**：
