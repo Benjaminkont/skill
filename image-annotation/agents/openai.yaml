@@ -1,0 +1,3 @@
+interface:
+  display_name: "图片标注"
+  short_description: "在真实图片上添加可编辑的框、箭头与中文说明，保留原图并导出预览"

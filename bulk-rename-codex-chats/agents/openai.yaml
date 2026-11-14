@@ -1,0 +1,6 @@
+interface:
+  display_name: "批量重命名 Codex 对话"
+  short_description: "按项目筛选、预览、确认并批量规范化 Codex 对话标题"
+  default_prompt: "使用 $bulk-rename-codex-chats 预览并批量重命名指定 Codex 项目的最近若干对话。"
+policy:
+  allow_implicit_invocation: true
