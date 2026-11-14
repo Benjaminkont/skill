@@ -1,0 +1,4 @@
+interface:
+  display_name: "源码到教学 MVP"
+  short_description: "从指定项目的真实模块实现提炼可运行实验，保留来源、简化说明与验证边界"
+  default_prompt: "请用 $source-to-mvp 分析我指定项目的目标模块，提炼学习主线并实现最小实验，说明上游实现、保留机制、简化内容与验证边界。"
