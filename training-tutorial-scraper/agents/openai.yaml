@@ -1,0 +1,5 @@
+interface:
+  display_name: "训练教学爬取"
+  short_description: "仅显式调用时，下载训练演示并整理为含本地动图与中文讲解的独立笔记"
+policy:
+  allow_implicit_invocation: false

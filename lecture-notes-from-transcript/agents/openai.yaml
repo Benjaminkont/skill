@@ -1,0 +1,4 @@
+interface:
+  display_name: "课堂转录结构化笔记"
+  short_description: "将课堂转录整理成对齐教学顺序、示例演进与技术推理的正式课程笔记"
+  default_prompt: "Use $lecture-notes-from-transcript to turn this lecture transcript into structured course notes."

@@ -1,0 +1,7 @@
+interface:
+  display_name: "课程原文择优搬运"
+  short_description: "比较转录版本，并在确认后把有价值的课堂问答补入已有笔记"
+  default_prompt: "使用 $import-course-transcripts 比较这门课程的转录候选，先预览原文选择和课堂问答的笔记补充计划，确认后再执行。"
+
+policy:
+  allow_implicit_invocation: true
